@@ -22,7 +22,7 @@ hbs.registerPartials(partials);
 
 app.set("view engine","hbs");
 app.get("/",(req,res)=>{
-    res.render("index");
+    res.render("datereminder");
 }) 
 
 app.get("/signup",(req,res)=>{
